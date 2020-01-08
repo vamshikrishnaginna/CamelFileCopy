@@ -29,3 +29,67 @@
 2020-01-08 14:54:54 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 1 seconds
 2020-01-08 14:54:54 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 2.694 seconds
 2020-01-08 14:54:54 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 1.045 seconds
+2020-01-08 15:04:38 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:04:38 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:04:39 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:04:39 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:04:39 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:04:39 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:04:39 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:04:39 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.307 seconds
+2020-01-08 15:05:45 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:05:45 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:05:45 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:05:45 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:05:45 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:05:45 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:05:45 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:05:45 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.269 seconds
+2020-01-08 15:06:20 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:06:20 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:06:20 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:06:20 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:06:20 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:06:21 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:06:21 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:06:21 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.299 seconds
+2020-01-08 15:07:29 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:07:29 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:07:29 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:07:29 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:07:29 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:07:29 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:07:29 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:07:29 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.274 seconds
+2020-01-08 15:08:08 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:08:08 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:08:08 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:08:08 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:08:08 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:08:08 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:08:08 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:08:08 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.269 seconds
+2020-01-08 15:36:05 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:36:05 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:36:05 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:36:05 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:36:05 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:36:05 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:36:05 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:36:05 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.291 seconds
+2020-01-08 15:36:06 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578477966823-0-2
+2020-01-08 15:36:06 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578477966823-0-4
+2020-01-08 15:36:33 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578477966823-0-6
+2020-01-08 15:36:45 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578477966823-0-8
+2020-01-08 15:37:09 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:37:09 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:37:09 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:37:09 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:37:09 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:37:09 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:37:09 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:37:09 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.294 seconds
+2020-01-08 15:37:10 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578478030559-0-2
+2020-01-08 15:37:10 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578478030559-0-4
+2020-01-08 15:37:10 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578478030559-0-6
+2020-01-08 15:37:10 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578478030559-0-8
