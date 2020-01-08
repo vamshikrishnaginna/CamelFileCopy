@@ -1,0 +1,31 @@
+2020-01-08 14:53:57 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 14:53:57 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 14:53:58 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 14:53:58 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 14:53:58 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 14:53:58 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 14:53:58 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 14:53:58 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.549 seconds
+2020-01-08 14:53:59 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 14:53:59 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 14:53:59 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 14:53:59 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 0 seconds
+2020-01-08 14:53:59 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 1.583 seconds
+2020-01-08 14:53:59 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 0.024 seconds
+2020-01-08 14:54:51 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 14:54:51 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 14:54:52 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 14:54:52 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 14:54:52 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 14:54:52 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 14:54:52 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 14:54:52 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.635 seconds
+2020-01-08 14:54:53 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 14:54:53 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 14:54:53 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:643 - Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 2]
+2020-01-08 14:54:53 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:770 - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-RXR-5400-3-1578475493543-0-1, fromRouteId=route1, atRouteId=route1, nodeId=to1, elapsed=3, duration=36]
+2020-01-08 14:54:54 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 14:54:54 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 1 seconds
+2020-01-08 14:54:54 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 2.694 seconds
+2020-01-08 14:54:54 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 1.045 seconds
