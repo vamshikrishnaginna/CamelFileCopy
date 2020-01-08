@@ -12,7 +12,8 @@ public class FileCopy {
         try {
             context.addRoutes(new FileCopyExample());
             context.start();
-            Thread.sleep(100000);
+            Thread.sleep(1000);
+            context.stop();
 
         } catch (Exception e) {
             e.printStackTrace();

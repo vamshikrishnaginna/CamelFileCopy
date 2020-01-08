@@ -93,3 +93,205 @@
 2020-01-08 15:37:10 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578478030559-0-4
 2020-01-08 15:37:10 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578478030559-0-6
 2020-01-08 15:37:10 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing ID-RXR-5400-3-1578478030559-0-8
+2020-01-08 15:40:00 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:40:00 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:40:00 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:40:00 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:40:00 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:40:00 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:40:00 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:40:00 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.288 seconds
+2020-01-08 15:40:01 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is hello.txt
+2020-01-08 15:40:01 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is helloWorld.txt
+2020-01-08 15:40:01 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is New Text Document (2).txt
+2020-01-08 15:40:01 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is New Text Document.txt
+2020-01-08 15:40:17 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is New Text Document (3).txt
+2020-01-08 15:41:10 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is NewFile.txt
+2020-01-08 15:42:17 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:42:17 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:42:17 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:42:17 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:42:17 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:42:17 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:42:17 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:42:17 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.286 seconds
+2020-01-08 15:42:18 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 15:42:18 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 15:42:18 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:643 - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 1]
+2020-01-08 15:42:18 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is MyFile1.txt
+2020-01-08 15:42:19 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:42:19 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 1 seconds
+2020-01-08 15:42:19 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 2.341 seconds
+2020-01-08 15:42:19 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 1.051 seconds
+2020-01-08 15:42:51 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:42:51 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:42:51 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:42:51 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:42:51 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:42:51 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:42:51 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:42:51 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.295 seconds
+2020-01-08 15:43:01 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:43:01 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:43:01 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:43:01 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:43:01 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:43:01 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:43:01 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:43:01 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.274 seconds
+2020-01-08 15:43:20 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:43:20 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:43:20 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:43:20 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:43:20 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:43:20 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:43:20 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:43:20 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.287 seconds
+2020-01-08 15:43:41 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:43:41 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:43:41 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:43:41 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:43:41 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:43:41 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:43:41 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:43:41 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.276 seconds
+2020-01-08 15:43:42 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 15:43:42 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 15:43:42 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:643 - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 1]
+2020-01-08 15:43:42 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is MyFile1.txt
+2020-01-08 15:43:43 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:43:43 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 1 seconds
+2020-01-08 15:43:43 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 2.309 seconds
+2020-01-08 15:43:43 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 1.029 seconds
+2020-01-08 15:56:22 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 15:56:22 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 15:56:23 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 15:56:23 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 15:56:23 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 15:56:23 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:56:23 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 15:56:23 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.638 seconds
+2020-01-08 15:56:24 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is MyFile1.txt
+2020-01-08 15:56:27 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is New Text Document.txt
+2020-01-08 15:56:33 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 15:56:33 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 15:56:33 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 15:56:33 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 0 seconds
+2020-01-08 15:56:33 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 10.679 seconds
+2020-01-08 15:56:33 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 0.032 seconds
+2020-01-08 16:03:44 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 16:03:44 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 16:03:44 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 16:03:44 [main] INFO  FileEndpoint:117 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-01-08 16:03:44 [main] INFO  FileEndpoint:123 - Using default memory based idempotent repository with cache max size: 1000
+2020-01-08 16:03:44 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 16:03:44 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 16:03:44 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.280 seconds
+2020-01-08 16:03:45 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is MyFile1.txt
+2020-01-08 16:03:45 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is New Text Document (2).txt
+2020-01-08 16:03:45 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is New Text Document (3).txt
+2020-01-08 16:03:45 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is New Text Document.txt
+2020-01-08 16:03:54 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 16:03:54 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 16:03:54 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?noop=true
+2020-01-08 16:03:54 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 0 seconds
+2020-01-08 16:03:54 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 10.300 seconds
+2020-01-08 16:03:54 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2020-01-08 16:13:18 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 16:13:18 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 16:13:19 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 16:13:19 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?move=.done
+2020-01-08 16:13:19 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 16:13:19 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.291 seconds
+2020-01-08 16:13:19 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 16:13:19 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 16:13:19 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?move=.done
+2020-01-08 16:13:19 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 0 seconds
+2020-01-08 16:13:19 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 0.408 seconds
+2020-01-08 16:13:19 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 0.012 seconds
+2020-01-08 16:14:14 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 16:14:14 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 16:14:14 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 16:14:14 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?move=.done
+2020-01-08 16:14:14 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 16:14:14 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.291 seconds
+2020-01-08 16:14:15 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 16:14:15 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 16:14:15 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:643 - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 1]
+2020-01-08 16:14:15 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is MyFile1.txt
+2020-01-08 16:14:16 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?move=.done
+2020-01-08 16:14:16 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 1 seconds
+2020-01-08 16:14:16 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 2.319 seconds
+2020-01-08 16:14:16 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 1.023 seconds
+2020-01-08 16:14:57 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 16:14:57 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 16:14:58 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 16:14:58 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?move=file%3AC%3A%5Cdata%5CArchive
+2020-01-08 16:14:58 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 16:14:58 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.273 seconds
+2020-01-08 16:14:59 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 16:14:59 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 16:14:59 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?move=file%3AC%3A%5Cdata%5CArchive
+2020-01-08 16:14:59 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 0 seconds
+2020-01-08 16:14:59 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 1.290 seconds
+2020-01-08 16:14:59 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2020-01-08 16:15:30 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 16:15:30 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 16:15:31 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 16:15:31 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?move=file%3AC%3A%5Cdata%5CArchive
+2020-01-08 16:15:31 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 16:15:31 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.278 seconds
+2020-01-08 16:15:32 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 16:15:32 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 16:15:32 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:643 - Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 2]
+2020-01-08 16:15:32 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:770 - There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-RXR-5400-3-1578480332109-0-1, fromRouteId=route1, atRouteId=null, nodeId=null, elapsed=0, duration=11]
+2020-01-08 16:15:32 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is MyFile1.txt
+2020-01-08 16:15:32 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] WARN  GenericFileOnCompletion:212 - Error during commit. Exchange[ID-RXR-5400-3-1578480332109-0-1]. Caused by: [org.apache.camel.component.file.GenericFileOperationFailedException - Cannot create directory: C:\data\source\file:C:\data\Archive (could be because of denied permissions)]
+org.apache.camel.component.file.GenericFileOperationFailedException: Cannot create directory: C:\data\source\file:C:\data\Archive (could be because of denied permissions)
+	at org.apache.camel.component.file.strategy.GenericFileProcessStrategySupport.renameFile(GenericFileProcessStrategySupport.java:126) ~[camel-file-3.0.0.jar:3.0.0]
+	at org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy.commit(GenericFileRenameProcessStrategy.java:113) ~[camel-file-3.0.0.jar:3.0.0]
+	at org.apache.camel.component.file.GenericFileOnCompletion.processStrategyCommit(GenericFileOnCompletion.java:127) ~[camel-file-3.0.0.jar:3.0.0]
+	at org.apache.camel.component.file.GenericFileOnCompletion.onCompletion(GenericFileOnCompletion.java:83) ~[camel-file-3.0.0.jar:3.0.0]
+	at org.apache.camel.component.file.GenericFileOnCompletion.onComplete(GenericFileOnCompletion.java:58) ~[camel-file-3.0.0.jar:3.0.0]
+	at org.apache.camel.support.UnitOfWorkHelper.doneSynchronizations(UnitOfWorkHelper.java:90) ~[camel-support-3.0.0.jar:3.0.0]
+	at org.apache.camel.impl.engine.DefaultUnitOfWork.done(DefaultUnitOfWork.java:234) ~[camel-base-3.0.0.jar:3.0.0]
+	at org.apache.camel.support.UnitOfWorkHelper.doneUow(UnitOfWorkHelper.java:51) ~[camel-support-3.0.0.jar:3.0.0]
+	at org.apache.camel.processor.CamelInternalProcessor$UnitOfWorkProcessorAdvice.after(CamelInternalProcessor.java:594) ~[camel-base-3.0.0.jar:3.0.0]
+	at org.apache.camel.processor.CamelInternalProcessor$UnitOfWorkProcessorAdvice.after(CamelInternalProcessor.java:543) ~[camel-base-3.0.0.jar:3.0.0]
+	at org.apache.camel.processor.CamelInternalProcessor.lambda$process$0(CamelInternalProcessor.java:172) ~[camel-base-3.0.0.jar:3.0.0]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$2.run(DefaultReactiveExecutor.java:103) [camel-base-3.0.0.jar:3.0.0]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185) [camel-base-3.0.0.jar:3.0.0]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59) [camel-base-3.0.0.jar:3.0.0]
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87) [camel-base-3.0.0.jar:3.0.0]
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:228) [camel-base-3.0.0.jar:3.0.0]
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:454) [camel-file-3.0.0.jar:3.0.0]
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:223) [camel-file-3.0.0.jar:3.0.0]
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:186) [camel-file-3.0.0.jar:3.0.0]
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:183) [camel-support-3.0.0.jar:3.0.0]
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:102) [camel-support-3.0.0.jar:3.0.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2020-01-08 16:15:33 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?move=file%3AC%3A%5Cdata%5CArchive
+2020-01-08 16:15:33 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 1 seconds
+2020-01-08 16:15:33 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 2.313 seconds
+2020-01-08 16:15:33 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 1.025 seconds
+2020-01-08 16:16:35 [main] INFO  DefaultCamelContext:2328 - Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-01-08 16:16:35 [main] INFO  DefaultManagementStrategy:181 - JMX is disabled
+2020-01-08 16:16:35 [main] INFO  DefaultCamelContext:2612 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-01-08 16:16:35 [main] INFO  DefaultCamelContext:3234 - Route: route1 started and consuming from: file://C:%5Cdata%5Csource?move=C%3A%5Cdata%5CArchive
+2020-01-08 16:16:35 [main] INFO  DefaultCamelContext:2385 - Total 1 routes, of which 1 are started
+2020-01-08 16:16:35 [main] INFO  DefaultCamelContext:2390 - Apache Camel 3.0.0 (CamelContext: camel-1) started in 0.277 seconds
+2020-01-08 16:16:36 [main] INFO  DefaultCamelContext:2665 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutting down
+2020-01-08 16:16:36 [main] INFO  DefaultShutdownStrategy:192 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2020-01-08 16:16:36 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:643 - Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 1]
+2020-01-08 16:16:36 [Camel (camel-1) thread #1 - file://C:%5Cdata%5Csource] INFO  route1:158 - Processing File is MyFile1.txt
+2020-01-08 16:16:37 [Camel (camel-1) thread #2 - ShutdownTask] INFO  DefaultShutdownStrategy:683 - Route: route1 shutdown complete, was consuming from: file://C:%5Cdata%5Csource?move=C%3A%5Cdata%5CArchive
+2020-01-08 16:16:37 [main] INFO  DefaultShutdownStrategy:257 - Graceful shutdown of 1 routes completed in 1 seconds
+2020-01-08 16:16:37 [main] INFO  DefaultCamelContext:2781 - Apache Camel 3.0.0 (CamelContext: camel-1) uptime 2.309 seconds
+2020-01-08 16:16:37 [main] INFO  DefaultCamelContext:2782 - Apache Camel 3.0.0 (CamelContext: camel-1) is shutdown in 1.027 seconds
